@@ -1,5 +1,9 @@
-# Open in Textmate for Pathfinder #
+# Plugin to Open in Sublime Text 2 for Pathfinder #
 
-*Easy way* to install, click here to get the plugin file: [github download plugin](https://github.com/downloads/orta/pathfinder_open_in_textmate/pathfinder_open_in_textmate.plugin.zip) and move the plugin into  _~/Library/Application Support/Path Finder/PlugIns_
+Based on - [Plugin for Textmate by Orta](https://github.com/orta/pathfinder_open_in_textmate)
 
-*Hard Way* clone this repo, get the [Path Finder SDK](http://www.cocoatech.com/sdk) and compile it yourself, then move that plugin file into _~/Library/Application Support/Path Finder/PlugIns_
+Installation, Download the compiled file from [this link](https://github.com/ramkola/pathfinder_open_in_sublime/blob/master/pathfinder_open_in_sublimetext.plugin.zip?raw=true).  Unzip and copy the plugin file into ~/Library/Application Support/Path Finder/PlugIns folder
+
+Restart Path Finder.  You will find "Open with Sublime" item under the Commands menu >  Plugins section.  In Path Finder, select any file or folder and use the above menu item.  The selected file will open in Sublime Text.
+
+To compile the code, clone the repository, download the [Path Finder SDK](http://get.cocoatech.com/PathFinderSDK.zip) and compile the code using XCode.  After you build the code, you can right-click on the product in XCode to open the folder location in finder and then copy the .plugin file into ~/Library/Application Support/Path Finder/PlugIns folder.
